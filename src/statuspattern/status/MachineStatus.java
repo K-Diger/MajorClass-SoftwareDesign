@@ -19,8 +19,9 @@ public class MachineStatus {
         return this;
     }
 
-    public void cognizeQuaterOutgoing() {
+    public MachineStatus cognizeQuaterOutgoing() {
         this.quarter = false;
+        return this;
     }
 
     public boolean cognizeSoldOut() {
